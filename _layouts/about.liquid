@@ -33,7 +33,9 @@ layout: default
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="more-info" style="font-size: 14px; line-height: 1.0">
+            {{ page.profile.more_info }}
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -58,10 +60,32 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <div style="margin-top: 40px;">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
+      </div>
+    {% endif %}
+
+    <!-- Honors and Awards -->
+    {% if page.honors_and_awards %}
+      <div style="margin-top: 40px;">
+        <h2>Honors and Awards</h2>
+        <div class="honors-and-awards" style="line-height: 1.8;"> 
+          {{ page.honors_and_awards | markdownify }}
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Services -->
+    {% if page.services %}
+      <div style="margin-top: 40px;">
+        <h2>Services</h2>
+        <div class="services" style="line-height: 1.8;">
+          {{ page.services | markdownify }}
+        </div>
+      </div>
     {% endif %}
 
     <!-- Social -->

@@ -1,25 +1,40 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: 1st-year PhD student in Computer Science
 profile:
   align: right
-  image: prof_pic.jpg
+  image: juzheng_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    juzheng [at] umd [dot] edu
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+honors_and_awards: >
+  - **Dean’s Fellowship**, University of Maryland, 2024
+
+  - **Outstanding Graduate**, Shanghai Jiao Tong University, 2023
+
+  - **Shanghai Government Scholarship**, Shanghai, 2021
+
+  - **Academic Excellence Scholarship**, Shanghai Jiao Tong University, 2020, 2021, 2022
+
+  - **Zhiyuan Honor Scholarship**, Shanghai Jiao Tong University, 2019, 2020, 2021, 2022
+  
+  - **Meritorious Winner**, International Mathematical Contest in Modeling, 2021
+
+services: >
+  - Reviewer for ICLR 2025, ICLR 2024, ICML 2024, KDD 2024
+
+  - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/), Fall 2024
+
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a 1st-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), working with [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/). I am interested in various topics within machine learning, with a particular emphasis on **large language models**, focusing on enhancing their efficiency, scalability, and applicability to complex real-world tasks.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn) in 2023, earning a Bachelor of Engineering degree in Information Engineering. I also had the privilege of working with [Dr. Yatao Bian](https://yataobian.com/) at [Tencent AI Lab](https://ai.tencent.com) and [Prof. Quanming Yao](https://lars-group.github.io/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I focused on multi-modal large language models and graph neural networks.
