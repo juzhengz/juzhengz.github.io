@@ -24,15 +24,13 @@ honors_and_awards: >
   - **Academic Excellence Scholarship**, Shanghai Jiao Tong University, 2020, 2021, 2022
 
   - **Zhiyuan Honor Scholarship**, Shanghai Jiao Tong University, 2019, 2020, 2021, 2022
-  
+
   - **Meritorious Winner**, International Mathematical Contest in Modeling, 2021
 
 services: >
   - Reviewer for ICLR 2025, ICLR 2024, ICML 2024, KDD 2024
 
   - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/), Fall 2024
-
-
 ---
 
 I am a 1st-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), working with [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/). I am interested in various topics within machine learning, with a particular emphasis on **large language models**, focusing on enhancing their efficiency, scalability, and applicability to complex real-world tasks.

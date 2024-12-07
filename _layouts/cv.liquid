@@ -3,7 +3,6 @@ layout: default
 ---
 <!-- _layouts/cv.html -->
 <div class="post">
-
   <header class="post-header">
     <h1 class="post-title">
       {{ page.title }}
@@ -36,7 +35,8 @@ layout: default
           height="1200px"
           type="application/pdf"
         >
-          <p>Your browser does not support PDFs. Please download the PDF to view it: 
+          <p>
+            Your browser does not support PDFs. Please download the PDF to view it:
             <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">Download PDF</a>.
           </p>
         </object>
@@ -45,5 +45,4 @@ layout: default
       <p>No CV PDF is available at the moment.</p>
     {% endif %}
   </article>
-
 </div>

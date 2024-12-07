@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Juzheng
-middle_name: 
+middle_name:
 last_name: Zhang
 email: juzheng@umd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -111,7 +111,7 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: 
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -168,7 +168,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-
 
 # -----------------------------------------------------------------------------
 # Newsletter
