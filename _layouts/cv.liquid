@@ -28,18 +28,17 @@ layout: default
 
   <article>
     {% if page.cv_pdf %}
-      <div class="pdf-container">
-        <object
-          data="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}#pagemode=none"
-          width="100%"
-          height="1120px"
-          type="application/pdf"
+      <div class="pdf-container" style="position: relative; width: 100%; padding-top: 141.42%; max-width: 100%; overflow: hidden;">
+        <iframe
+          src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}#pagemode=none"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+          frameborder="0"
         >
           <p>
             Your browser does not support PDFs. Please download the PDF to view it:
             <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">Download PDF</a>.
           </p>
-        </object>
+        </iframe>
       </div>
     {% else %}
       <p>No CV PDF is available at the moment.</p>
