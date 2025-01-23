@@ -33,6 +33,6 @@ services: >
   - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/), Fall 2024
 ---
 
-I am a 1st-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), working with [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/). I am interested in various topics within machine learning, with a particular emphasis on **large language models**, focusing on enhancing their efficiency, scalability, and applicability to complex real-world tasks.
+I am a 1st-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), working with [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/). I am interested in various topics within machine learning, with a particular emphasis on large language models, focusing on enhancing their efficiency, scalability, and applicability to complex real-world tasks.
 
 Prior to joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn) in 2023, earning a Bachelor of Engineering degree in Information Engineering. I also had the privilege of working with [Dr. Yatao Bian](https://yataobian.com/) at [Tencent AI Lab](https://ai.tencent.com) and [Prof. Quanming Yao](https://lars-group.github.io/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I focused on multi-modal large language models and graph neural networks.
