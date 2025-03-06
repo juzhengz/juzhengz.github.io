@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 honors_and_awards: >
-  - **Dean’s Fellowship**, University of Maryland, 2024
+  - **Dean's Fellowship**, University of Maryland, 2024
 
   - **Outstanding Graduate**, Shanghai Jiao Tong University, 2023
 
