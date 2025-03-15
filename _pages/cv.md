@@ -4,5 +4,5 @@ permalink: /CV/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: juzheng_zhang_cv.pdf # you can also use external links here
+cv_pdf: Juzheng_CV.pdf # you can also use external links here
 ---
