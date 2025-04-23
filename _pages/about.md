@@ -17,7 +17,7 @@ honors_and_awards: >
 
   - **Outstanding Graduate**, Shanghai Jiao Tong University, 2023
 
-  - **Shanghai Government Scholarship**, Shanghai, 2021
+  - **Shanghai Government Scholarship**, Shanghai Government, 2021
 
   - **Academic Excellence Scholarship**, Shanghai Jiao Tong University, 2020, 2021, 2022
 
@@ -31,7 +31,7 @@ services: >
   - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/), Fall 2024
 ---
 
-I am a 1st-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), working with [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/). 
+I am a 1st-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), working with [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
 I am interested in various topics within machine learning, with a particular emphasis on large-scale models, focusing on enhancing their scalability, efficiency, and applicability to complex real-world tasks.
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor’s degree in Electrical Engineering.
 
