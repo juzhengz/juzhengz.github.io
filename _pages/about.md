@@ -19,10 +19,6 @@ honors_and_awards: >
 
   - **Shanghai Government Scholarship**, Shanghai Government, 2021
 
-  - **Academic Excellence Scholarship**, Shanghai Jiao Tong University, 2020, 2021, 2022
-
-  - **Zhiyuan Honor Scholarship**, Shanghai Jiao Tong University, 2019, 2020, 2021, 2022
-
   - **Meritorious Winner**, International Mathematical Contest in Modeling, 2021
 
 services: >
