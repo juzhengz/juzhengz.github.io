@@ -32,5 +32,3 @@ I am interested in various topics within machine learning, with a particular emp
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor's degree in Electrical Engineering.
 
 I'm always open to internship opportunities or research collaborations – feel free to reach out! 🤝
-
-📧 Email: <span style="font-family: monospace; font-size: 0.9em;">juzheng [at] umd [dot] edu</span>
