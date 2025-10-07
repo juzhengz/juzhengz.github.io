@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 1st-year PhD student in Computer Science
+subtitle: 2nd-year PhD student in Computer Science
 profile:
   align: right
   image: juzheng_pic_square.png
@@ -22,13 +22,14 @@ honors_and_awards: >
   - **Meritorious Winner**, International Mathematical Contest in Modeling, 2021
 
 services: >
-  - Reviewer for NeurIPS 2025, ICML 2025 & 2024, ICLR 2025 & 2024, and KDD 2024
+  - Reviewer for NeurIPS 25, ICML 25 & 24, ICLR 26 & 25 & 24, KDD 24, and AAAI 26.
 
   - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/), Fall 2024
 ---
 
-I am a 1st-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), working with [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
-I am interested in various topics within machine learning, with a particular emphasis on large-scale models, focusing on enhancing their scalability, efficiency, and applicability to complex real-world tasks.
+I am a 2nd-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), advised by [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
+My primary focus lies in post-training large language models and novel architectures, particularly Diffusion Large Language Models.
+My research vision is to push the frontier of LLM capability beyond mere fluency toward robust, general reasoning and continuous self-improvement.
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor's degree in Electrical Engineering.
 
-I'm always open to internship opportunities or research collaborations – feel free to reach out! 🤝
+I am currently seeking Research Internship opportunities and am open to collaborations. Feel free to reach out! 🤝
