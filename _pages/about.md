@@ -28,8 +28,8 @@ services: >
 ---
 
 I am a 2nd-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), advised by [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
-My primary focus lies in post-training large language models and novel architectures, particularly Diffusion Large Language Models.
-My research vision is to push the frontier of LLM capability beyond mere fluency toward robust, general reasoning and continuous self-improvement.
+My research focuses on post-training methods for large language models. I also explore novel model architectures, particularly diffusion LLMs.
+My long-term research vision is to push LLMs and broader agentic systems toward reliable general reasoning and continual self-improvement.
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor's degree in Electrical Engineering.
 
 I am currently seeking Research Internship opportunities and am open to collaborations. Feel free to reach out! 🤝
