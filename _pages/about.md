@@ -27,8 +27,8 @@ services: >
   - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/), Fall 2024
 ---
 
-I am a 2nd-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), advised by [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/). 
-My research focuses on post-training methods for LLMs and agentic systems, with an emphasis on RL-based alignment and continual learning to improve reasoning reliability and enable stable self-improvement over time. 
+I am a 2nd-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), advised by [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
+My research focuses on post-training methods for LLMs and agentic systems, with an emphasis on RL-based alignment and continual learning to improve reasoning reliability and enable stable self-improvement over time.
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor's degree in Information Engineering.
 
 I am currently seeking research internship opportunities for summer 2026. Feel free to reach out! 🤝
