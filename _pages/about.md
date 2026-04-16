@@ -31,4 +31,4 @@ I am a 2nd-year PhD student in Computer Science at the [University of Maryland, 
 My research focuses on post-training methods for LLMs and agentic systems, with an emphasis on RL-based alignment and continual learning to improve reasoning reliability and enable stable self-improvement over time.
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor's degree in Information Engineering.
 
-I am currently seeking research internship opportunities for summer 2026. Feel free to reach out! 🤝
+I’m open to future internship opportunities and research collaborations. Feel free to reach out! 🤝
