@@ -215,6 +215,21 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+@media (max-width: 575.98px) {
+  .profile,
+  .profile.float-right,
+  .profile.float-left {
+    float: none !important;
+    width: 160px;
+    max-width: 50%;
+    margin: 0 auto 1rem;
+
+    figure {
+      margin-bottom: 0;
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -464,6 +479,13 @@ footer.sticky-bottom {
 
   .container {
     text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer.fixed-bottom {
+    position: static;
+    margin-top: 3rem;
   }
 }
 
@@ -737,7 +759,13 @@ footer.sticky-bottom {
           font-style: normal;
         }
 
-        > span.more-authors {
+        > button.more-authors {
+          appearance: none;
+          background: none;
+          border: 0;
+          padding: 0;
+          font: inherit;
+          text-align: inherit;
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
@@ -745,6 +773,11 @@ footer.sticky-bottom {
           &:hover {
             color: var(--global-text-color);
             border-bottom: 1px dashed var(--global-text-color);
+          }
+
+          &:focus-visible {
+            outline: 2px solid var(--global-theme-color);
+            outline-offset: 3px;
           }
         }
       }

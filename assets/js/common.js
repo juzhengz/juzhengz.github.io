@@ -1,4 +1,24 @@
 $(document).ready(function () {
+  // Native buttons support Tab, Enter and Space without custom keyboard handlers.
+  $("button.more-authors").click(function () {
+    const expanded = this.getAttribute("aria-expanded") !== "true";
+    const text = expanded ? this.dataset.expanded : this.dataset.collapsed;
+    this.setAttribute("aria-expanded", String(expanded));
+    this.setAttribute(
+      "aria-label",
+      expanded ? "Additional authors: " + text.replace(/<[^>]*>/g, "") + ". Hide additional authors" : "Show " + this.dataset.collapsed
+    );
+    clearInterval(this.authorAnimation);
+    let cursor = 0;
+    this.authorAnimation = setInterval(
+      () => {
+        this.innerHTML = text.substring(0, ++cursor);
+        if (cursor >= text.length) clearInterval(this.authorAnimation);
+      },
+      Number(this.dataset.animationDelay) || 8
+    );
+  });
+
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");

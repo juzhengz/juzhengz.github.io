@@ -26,7 +26,7 @@ layout: default
       rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 60vw"{% endcapture %}
+      30vw, 160px{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes
             alt="Juzheng Zhang's Profile Image" title="Profile image"
@@ -63,7 +63,7 @@ layout: default
     {% if page.selected_papers %}
       <div style="margin-top: 40px;">
         <h2>
-          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Works</a>
+          <a href="{{ '/Publications/' | relative_url }}" style="color: inherit">Selected Work</a>
         </h2>
         {% include selected_papers.liquid %}
       </div>
@@ -82,7 +82,7 @@ layout: default
     <!-- Services -->
     {% if page.services %}
       <div style="margin-top: 40px;">
-        <h2>Services</h2>
+        <h2>Service</h2>
         <div class="services" style="line-height: 1.8;">
           {{ page.services | markdownify }}
         </div>

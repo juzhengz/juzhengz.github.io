@@ -125,7 +125,7 @@
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.x_username %}
-    {% capture link %}https://twitter.com/{{ site.x_username }}{% endcapture %}
+    {% capture link %}https://x.com/{{ site.x_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.mastodon_username %}
@@ -216,26 +216,68 @@
     {% capture link %}https://www.zotero.org/{{ site.zotero_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
-  {% if sameaslinks != blank %}
-    {% assign sameaslinks = sameaslinks | split: '' %}
-  {% endif %}
-
-  <script type="application/ld+json">
-    {
-        "author":
-        {
+  {% assign home_url = '/' | absolute_url %}
+  {% assign website_id = home_url | append: '#website' %}
+  {% assign person_id = home_url | append: '#person' %}
+  {% assign schema_description = page.description | default: site.description | strip %}
+  {% assign schema_image = page.og_image | default: site.og_image | absolute_url %}
+  {% if page.url == '/' %}
+    {% if page.profile.image %}
+      {% assign schema_image = page.profile.image | prepend: '/assets/img/' | absolute_url %}
+    {% endif %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": {{ website_id | jsonify }},
+            "url": {{ home_url | jsonify }},
+            "name": {{ title | strip | jsonify }},
+            "description": {{ schema_description | jsonify }},
+            "publisher": { "@id": {{ person_id | jsonify }} }
+          },
+          {
             "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
-    }
-  </script>
+            "@id": {{ person_id | jsonify }},
+            "name": {{ author_name | strip | jsonify }},
+            "url": {{ home_url | jsonify }},
+            "description": {{ schema_description | jsonify }},
+            "image": {{ schema_image | jsonify }},
+            "sameAs": {{ sameaslinks | jsonify }}
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": {{ home_url | append: '#profile' | jsonify }},
+            "url": {{ home_url | jsonify }},
+            "name": {{ author_name | strip | jsonify }},
+            "description": {{ schema_description | jsonify }},
+            "isPartOf": { "@id": {{ website_id | jsonify }} },
+            "mainEntity": { "@id": {{ person_id | jsonify }} },
+            "primaryImageOfPage": {
+              "@type": "ImageObject",
+              "contentUrl": {{ schema_image | jsonify }},
+              "caption": {{ author_name | strip | jsonify }}
+            }
+          }
+        ]
+      }
+    </script>
+  {% else %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebPage{% endif %}",
+        "url": {{ page.url | replace: 'index.html', '' | absolute_url | jsonify }},
+        "name": {{ page.title | default: title | strip | jsonify }},
+        "description": {{ schema_description | jsonify }},
+        "isPartOf": { "@id": {{ website_id | jsonify }} },
+        "author": {
+          "@type": "Person",
+          "@id": {{ person_id | jsonify }},
+          "name": {{ author_name | strip | jsonify }}
+        }
+      }
+    </script>
+  {% endif %}
 {% endif %}

@@ -2,10 +2,10 @@
 layout: about
 title: About
 permalink: /
-subtitle: 2nd-year PhD student in Computer Science
+subtitle: 3rd-year PhD student in Computer Science
 profile:
   align: right
-  image: juzheng_pic_square.png
+  image: juzheng-zhang.jpg
   image_circular: false # crops the image to make it circular
 
 news: false # includes a list of news items
@@ -22,13 +22,14 @@ honors_and_awards: >
   - **Meritorious Winner**, International Mathematical Contest in Modeling, 2021
 
 services: >
-  - Reviewer for NeurIPS 25, ICML 25 & 24, ICLR 26 & 25 & 24, KDD 24, and AAAI 26.
+  - Reviewer for NeurIPS 2025-26; ICML 2024-26; ICLR 2024-27; KDD 2024; AAAI 2026-27.
 
-  - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/), Fall 2024
+  - Teaching Assistant for [CMSC 250 Discrete Structures](https://www.cs.umd.edu/class/fall2024/cmsc250-010X/).
 ---
 
-I am a 2nd-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), advised by [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
-My research focuses on post-training methods for LLMs and agentic systems, with an emphasis on RL-based alignment and continual learning to improve reasoning reliability and enable stable self-improvement over time.
+I am a 3rd-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), advised by [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
+My research focuses on post-training for LLMs and agentic systems, with interests in reinforcement learning, continual learning, and self-improvement.
+I am particularly interested in how models and agents can learn from experience and adapt to new tasks over time.
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor's degree in Information Engineering.
 
-I’m open to future internship opportunities and research collaborations. Feel free to reach out! 🤝
+I'm open to research internship opportunities and collaborations. Feel free to reach out! 🤝
