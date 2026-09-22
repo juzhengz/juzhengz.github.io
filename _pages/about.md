@@ -29,7 +29,7 @@ services: >
 
 I am a 3rd-year PhD student in Computer Science at the [University of Maryland, College Park](https://www.cs.umd.edu), advised by [Prof. Tom Goldstein](https://www.cs.umd.edu/~tomg/).
 My research focuses on post-training for LLMs and agentic systems, with interests in reinforcement learning, continual learning, and self-improvement.
-I am particularly interested in how models and agents can learn from experience and adapt to new tasks over time.
+I am particularly interested in how models and agents can continually improve through interaction with minimal human intervention.
 Before joining UMD, I graduated with honors from [Shanghai Jiao Tong University](https://en.sjtu.edu.cn), where I earned a Bachelor's degree in Information Engineering.
 
 I'm open to research internship opportunities and collaborations. Feel free to reach out! 🤝
