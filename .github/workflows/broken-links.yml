@@ -48,5 +48,16 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
+          # Skip unpublished theme examples, matching _config.yml, and the Liquid-based 404 page.
+          args: >-
+            --user-agent 'curl/7.54'
+            --exclude-path README.md
+            --exclude-path _pages/404.md
+            --exclude-path _posts/
+            --exclude-path _projects/
+            --exclude-path _news/
+            --exclude-path _pages/blog.md
+            --exclude-path _pages/projects.md
+            --exclude-path _pages/news.md
+            --exclude-path _pages/repositories.md
+            --verbose --no-progress './**/*.md' './**/*.html'
